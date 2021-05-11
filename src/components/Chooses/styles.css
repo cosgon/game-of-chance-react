@@ -1,0 +1,12 @@
+.chooseButton {
+  font-size: 1.5rem;
+  width: 120px;
+  margin: 10px;
+}
+.chooses {
+  width: 320px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}

@@ -1,12 +1,14 @@
+import "./styles.css";
+
 const Battle = () => {
   return (
-    <div>
-      <div>
+    <div className="battle">
+      <div className="machineFight">
         <span>Máquina</span>
         <h3> Pedra </h3>
       </div>
       <hr />
-      <div>
+      <div className="playerFight">
         <span>Jogador</span>
         <h3>Papel</h3>
       </div>

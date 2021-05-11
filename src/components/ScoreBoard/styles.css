@@ -1,0 +1,17 @@
+.scoreBoard {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  background-color: #444;
+  color: #ddd;
+  width: 320px;
+  border-radius: 50px;
+  border: 5px solid #333;
+}
+
+.title {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}

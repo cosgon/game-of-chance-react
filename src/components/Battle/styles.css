@@ -1,0 +1,19 @@
+.battle {
+  margin: 2rem auto;
+  width: 320px;
+}
+.machineFight {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+.playerFight {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+hr {
+  width: 320px;
+}

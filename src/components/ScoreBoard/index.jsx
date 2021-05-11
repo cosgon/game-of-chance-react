@@ -1,14 +1,16 @@
+import "./styles.css";
+
 const ScoreBoard = () => {
   return (
-    <div>
-      <h2>Placar</h2>
-      <div>
+    <div className="scoreBoard">
+      <h2 className="title">Placar</h2>
+      <div className="player">
         <h2>10</h2>
-        <h3>Jogador</h3>
+        <h4>Jogador</h4>
       </div>
-      <div>
+      <div className="machine">
         <h2>5</h2>
-        <h3>Máquina</h3>
+        <h4>Máquina</h4>
       </div>
     </div>
   );
