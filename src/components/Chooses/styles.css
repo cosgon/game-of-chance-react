@@ -2,7 +2,14 @@
   font-size: 1.5rem;
   width: 120px;
   margin: 10px;
+  border-radius: 20px;
+  transition: 300ms;
 }
+.chooseButton:hover,
+.chooseButton:focus {
+  box-shadow: 0 0 5px 5px #555;
+}
+
 .chooses {
   width: 320px;
   margin: 0 auto;
