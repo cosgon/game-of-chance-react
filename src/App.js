@@ -1,4 +1,5 @@
 import "./App.css";
+import { FaLinkedin } from "react-icons/fa";
 import ScoreBoard from "./components/ScoreBoard";
 import Battle from "./components/Battle";
 import Chooses from "./components/Chooses";
@@ -42,10 +43,17 @@ function App() {
         <ScoreBoard playerPoints={playerPoints} machinePoints={machinePoints} />
         <Battle chooses={choose} />
         <Chooses playerChoose={setChoose} />
+        <h3>{message}</h3>
       </main>
 
       <footer>
-        <h3>{message}</h3>
+        <a
+          href="https://www.linkedin.com/in/guilhermecosgoncalves/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaLinkedin /> Guilherme Gonçalves
+        </a>
       </footer>
     </div>
   );
